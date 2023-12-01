@@ -6,7 +6,7 @@ but these code is just a small path of this project
 
 so ,this path of project represent how to control smartdrive duo 30 using ros2 on jetson nano.
 
-so the concept to control smartdrive duo 30 is:
+the concept to control smartdrive duo 30 is:
   * 00000000 - 00111111 (0-63) is left wheel go forward
   * 01000000 - 01111111 (64-127) is left wheel go backward
   * 10000000 - 10111111 (128-191) is right wheel go forward
