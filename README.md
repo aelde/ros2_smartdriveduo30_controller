@@ -1,6 +1,6 @@
 # ros2_smartdriveduo30_controller
 
-hi today im starting with my new robot project (next gen of kalwtummad2).
+hi im AELDE today im starting with my new robot project (next gen of kalwtummad2).
 
 but these code is just a small path of this project
 
