@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from popo/srv/TestThree.srv
+// generated code does not contain a copyright notice
+
+
+module popo {
+  module srv {
+    struct TestThree_Request {
+      int64 a;
+
+      int64 b;
+
+      int64 c;
+    };
+    struct TestThree_Response {
+      int64 sum;
+    };
+  };
+};

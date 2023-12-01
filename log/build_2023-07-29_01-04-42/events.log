@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000642] (popo) JobQueued: {'identifier': 'popo', 'dependencies': OrderedDict()}
+[0.000691] (popo) JobStarted: {'identifier': 'popo'}
+[0.007514] (popo) JobProgress: {'identifier': 'popo', 'progress': 'cmake'}
+[0.008353] (popo) JobProgress: {'identifier': 'popo', 'progress': 'build'}
+[0.008418] (popo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eggs/ros2/ros2_smartdriveduo30/build/popo', '--', '-j8', '-l8'], 'cwd': '/home/eggs/ros2/ros2_smartdriveduo30/build/popo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eggs'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib:/home/eggs/ros2_ws/install/udemy_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eggs'), ('OLDPWD', '/home/eggs/ros2/ros2_smartdriveduo30/src/popo/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1869'), ('SYSTEMD_EXEC_PID', '2013'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9299'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eggs/ros2/ros2_smartdriveduo30/install:/home/eggs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eggs'), ('JOURNAL_STREAM', '8:26607'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eggs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eggs:@/tmp/.ICE-unix/1976,unix/eggs:/tmp/.ICE-unix/1976'), ('INVOCATION_ID', '7e8b8569160e47c8a0c7b2653067cb9a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RNI271'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eggs/ros2/ros2_smartdriveduo30/install/popo:/home/eggs/ros2_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2cd1857e-2e83-4546-aa30-3314e9d6d6d4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eggs/ros2/ros2_smartdriveduo30/build/popo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages:/home/eggs/ros2_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eggs/ros2/ros2_smartdriveduo30/install/popo:/home/eggs/ros2_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.028715] (popo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099500] (-) TimerEvent: {}
+[0.114611] (popo) StdoutLine: {'line': b'-- Found rclpy: 3.3.8 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.114735] (popo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.117581] (popo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.117689] (popo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.140550] (popo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.158269] (popo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.200834] (-) TimerEvent: {}
+[0.302300] (-) TimerEvent: {}
+[0.402867] (-) TimerEvent: {}
+[0.471347] (popo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.507542] (-) TimerEvent: {}
+[0.582652] (popo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.608895] (-) TimerEvent: {}
+[0.709660] (-) TimerEvent: {}
+[0.726545] (popo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.739867] (popo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.753980] (popo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.754305] (popo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.754348] (popo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[0.761478] (popo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.767484] (popo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.767737] (popo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.767980] (popo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.768619] (popo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.769954] (popo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.797062] (popo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.801585] (popo) StdoutLine: {'line': b'-- Build files have been written to: /home/eggs/ros2/ros2_smartdriveduo30/build/popo\n'}
+[0.810365] (-) TimerEvent: {}
+[0.821399] (popo) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.830649] (popo) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.837676] (popo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_scripts\n'}
+[0.838741] (popo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_popo\n'}
+[0.910502] (-) TimerEvent: {}
+[0.994362] (popo) StdoutLine: {'line': b'running egg_info\n'}
+[0.994687] (popo) StdoutLine: {'line': b'running egg_info\n'}
+[0.994749] (popo) StdoutLine: {'line': b'writing scripts.egg-info/PKG-INFO\n'}
+[0.995159] (popo) StdoutLine: {'line': b'writing dependency_links to scripts.egg-info/dependency_links.txt\n'}
+[0.995280] (popo) StdoutLine: {'line': b'writing top-level names to scripts.egg-info/top_level.txt\n'}
+[0.995333] (popo) StdoutLine: {'line': b'writing popo.egg-info/PKG-INFO\n'}
+[0.995442] (popo) StdoutLine: {'line': b'writing dependency_links to popo.egg-info/dependency_links.txt\n'}
+[0.995476] (popo) StdoutLine: {'line': b'writing top-level names to popo.egg-info/top_level.txt\n'}
+[0.996280] (popo) StdoutLine: {'line': b"reading manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[0.996551] (popo) StdoutLine: {'line': b"reading manifest file 'popo.egg-info/SOURCES.txt'\n"}
+[0.996630] (popo) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[0.996969] (popo) StdoutLine: {'line': b"writing manifest file 'popo.egg-info/SOURCES.txt'\n"}
+[1.010590] (-) TimerEvent: {}
+[1.016228] (popo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_popo_egg\n'}
+[1.016335] (popo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_scripts_egg\n'}
+[1.110704] (-) TimerEvent: {}
+[1.120615] (popo) StdoutLine: {'line': b'[  3%] Built target popo__cpp\n'}
+[1.130811] (popo) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.130917] (popo) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.130956] (popo) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.135540] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_generator_c\x1b[0m\n'}
+[1.146520] (popo) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_generator_c.dir/rosidl_generator_c/popo/srv/detail/command__functions.c.o\x1b[0m\n'}
+[1.147597] (popo) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_generator_c.dir/rosidl_generator_c/popo/srv/detail/threevalue__functions.c.o\x1b[0m\n'}
+[1.147646] (popo) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_generator_c.dir/rosidl_generator_c/popo/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[1.147717] (popo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_generator_c.dir/rosidl_generator_c/popo/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[1.193328] (popo) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libpopo__rosidl_generator_c.so\x1b[0m\n'}
+[1.210790] (-) TimerEvent: {}
+[1.219687] (popo) StdoutLine: {'line': b'[ 18%] Built target popo__rosidl_generator_c\n'}
+[1.228261] (popo) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.228485] (popo) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.229150] (popo) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.310929] (-) TimerEvent: {}
+[1.331477] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.342875] (popo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/popo/srv/command__type_support.cpp.o\x1b[0m\n'}
+[1.344014] (popo) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/popo/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.344188] (popo) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/popo/srv/threevalue__type_support.cpp.o\x1b[0m\n'}
+[1.406991] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.411030] (-) TimerEvent: {}
+[1.418840] (popo) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/popo/srv/detail/command__type_support.cpp.o\x1b[0m\n'}
+[1.434473] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.438618] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_c\x1b[0m\n'}
+[1.447648] (popo) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_c.dir/rosidl_typesupport_c/popo/srv/command__type_support.cpp.o\x1b[0m\n'}
+[1.457516] (popo) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/popo/srv/detail/dds_fastrtps/command__type_support.cpp.o\x1b[0m\n'}
+[1.476654] (popo) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_c.dir/rosidl_typesupport_c/popo/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.504556] (popo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_c.dir/rosidl_typesupport_c/popo/srv/threevalue__type_support.cpp.o\x1b[0m\n'}
+[1.504849] (popo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/popo/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.511135] (-) TimerEvent: {}
+[1.522667] (popo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/popo/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.526773] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.531527] (popo) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/popo/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.532095] (popo) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_c.dir/rosidl_typesupport_c/popo/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.540150] (popo) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/popo/srv/detail/command__type_support_c.cpp.o\x1b[0m\n'}
+[1.540441] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.554010] (popo) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/popo/srv/detail/command__type_support.c.o\x1b[0m\n'}
+[1.561113] (popo) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libpopo__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.584688] (popo) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/popo/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[1.593779] (popo) StdoutLine: {'line': b'[ 52%] Built target popo__rosidl_typesupport_c\n'}
+[1.602304] (popo) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/popo/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[1.611257] (-) TimerEvent: {}
+[1.614728] (popo) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/popo/srv/detail/threevalue__type_support.c.o\x1b[0m\n'}
+[1.644630] (popo) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/popo/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[1.646916] (popo) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/popo/srv/detail/threevalue__type_support.cpp.o\x1b[0m\n'}
+[1.667194] (popo) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libpopo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.676094] (popo) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libpopo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.698974] (popo) StdoutLine: {'line': b'[ 63%] Built target popo__rosidl_typesupport_cpp\n'}
+[1.701107] (popo) StdoutLine: {'line': b'[ 63%] Built target popo__rosidl_typesupport_introspection_c\n'}
+[1.706707] (popo) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/popo/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.709169] (popo) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/popo/srv/detail/threevalue__type_support_c.cpp.o\x1b[0m\n'}
+[1.711349] (-) TimerEvent: {}
+[1.740717] (popo) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/popo/srv/detail/dds_fastrtps/threevalue__type_support.cpp.o\x1b[0m\n'}
+[1.767014] (popo) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/popo/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[1.789565] (popo) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/popo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/popo/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.811467] (-) TimerEvent: {}
+[1.911841] (-) TimerEvent: {}
+[1.926650] (popo) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libpopo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.961414] (popo) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libpopo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.971831] (popo) StdoutLine: {'line': b'[ 76%] Built target popo__rosidl_typesupport_introspection_cpp\n'}
+[2.011143] (popo) StdoutLine: {'line': b'[ 76%] Built target popo__rosidl_typesupport_fastrtps_c\n'}
+[2.011931] (-) TimerEvent: {}
+[2.015207] (popo) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libpopo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.060952] (popo) StdoutLine: {'line': b'[ 78%] Built target popo__rosidl_typesupport_fastrtps_cpp\n'}
+[2.079185] (popo) StdoutLine: {'line': b'[ 78%] Built target popo\n'}
+[2.095515] (popo) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.112038] (-) TimerEvent: {}
+[2.212281] (-) TimerEvent: {}
+[2.313796] (-) TimerEvent: {}
+[2.414822] (-) TimerEvent: {}
+[2.516067] (-) TimerEvent: {}
+[2.548128] (popo) StdoutLine: {'line': b'[ 80%] Built target popo__py\n'}
+[2.557264] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_generator_py\x1b[0m\n'}
+[2.569156] (popo) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_generator_py.dir/rosidl_generator_py/popo/srv/_command_s.c.o\x1b[0m\n'}
+[2.569263] (popo) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_generator_py.dir/rosidl_generator_py/popo/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[2.569494] (popo) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_generator_py.dir/rosidl_generator_py/popo/srv/_threevalue_s.c.o\x1b[0m\n'}
+[2.570385] (popo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_generator_py.dir/rosidl_generator_py/popo/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[2.616249] (-) TimerEvent: {}
+[2.639539] (popo) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/popo/libpopo__rosidl_generator_py.so\x1b[0m\n'}
+[2.670105] (popo) StdoutLine: {'line': b'[ 89%] Built target popo__rosidl_generator_py\n'}
+[2.679603] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.679705] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.679970] (popo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target popo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.691599] (popo) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/popo/_popo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.691729] (popo) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/popo/_popo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.691891] (popo) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/popo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/popo/_popo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.716408] (-) TimerEvent: {}
+[2.767426] (popo) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/popo/popo_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.767564] (popo) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/popo/popo_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.767612] (popo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/popo/popo_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.795546] (popo) StdoutLine: {'line': b'[100%] Built target popo__rosidl_typesupport_introspection_c__pyext\n'}
+[2.795749] (popo) StdoutLine: {'line': b'[100%] Built target popo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.795789] (popo) StdoutLine: {'line': b'[100%] Built target popo__rosidl_typesupport_c__pyext\n'}
+[2.807207] (popo) CommandEnded: {'returncode': 0}
+[2.816485] (-) TimerEvent: {}
+[2.916693] (-) TimerEvent: {}
+[2.920287] (popo) JobProgress: {'identifier': 'popo', 'progress': 'install'}
+[2.927527] (popo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eggs/ros2/ros2_smartdriveduo30/build/popo'], 'cwd': '/home/eggs/ros2/ros2_smartdriveduo30/build/popo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eggs'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib:/home/eggs/ros2_ws/install/udemy_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eggs'), ('OLDPWD', '/home/eggs/ros2/ros2_smartdriveduo30/src/popo/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1869'), ('SYSTEMD_EXEC_PID', '2013'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9299'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eggs/ros2/ros2_smartdriveduo30/install:/home/eggs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eggs'), ('JOURNAL_STREAM', '8:26607'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eggs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eggs:@/tmp/.ICE-unix/1976,unix/eggs:/tmp/.ICE-unix/1976'), ('INVOCATION_ID', '7e8b8569160e47c8a0c7b2653067cb9a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RNI271'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eggs/ros2/ros2_smartdriveduo30/install/popo:/home/eggs/ros2_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2cd1857e-2e83-4546-aa30-3314e9d6d6d4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eggs/ros2/ros2_smartdriveduo30/build/popo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages:/home/eggs/ros2_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eggs/ros2/ros2_smartdriveduo30/install/popo:/home/eggs/ros2_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[2.933789] (popo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.934341] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/ament_index/resource_index/rosidl_interfaces/popo\n'}
+[2.934493] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo\n'}
+[2.934709] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg\n'}
+[2.934835] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.934948] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv\n'}
+[2.934981] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/add_two_ints.h\n'}
+[2.935094] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail\n'}
+[2.935255] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__functions.c\n'}
+[2.935299] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__struct.h\n'}
+[2.935390] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__functions.c\n'}
+[2.935482] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__struct.h\n'}
+[2.935522] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__functions.h\n'}
+[2.935563] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__functions.h\n'}
+[2.935637] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__type_support.h\n'}
+[2.935677] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__functions.h\n'}
+[2.935707] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__struct.h\n'}
+[2.935773] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__type_support.h\n'}
+[2.935853] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__functions.h\n'}
+[2.935887] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__type_support.h\n'}
+[2.935967] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__functions.c\n'}
+[2.936053] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__type_support.h\n'}
+[2.936203] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__struct.h\n'}
+[2.936237] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__functions.c\n'}
+[2.936273] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/add_three_ints.h\n'}
+[2.936315] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/command.h\n'}
+[2.936646] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/threevalue.h\n'}
+[2.936685] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/library_path.sh\n'}
+[2.936721] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/library_path.dsv\n'}
+[2.936906] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_generator_c.so\n'}
+[2.936948] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_generator_c.so" to ""\n'}
+[2.936978] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo\n'}
+[2.937009] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg\n'}
+[2.937039] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.937069] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv\n'}
+[2.937098] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail\n'}
+[2.937582] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__rosidl_typesupport_fastrtps_c.h\n'}
+[2.937645] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[2.937676] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[2.937706] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[2.937900] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_fastrtps_c.so\n'}
+[2.938473] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.938601] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo\n'}
+[2.938638] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg\n'}
+[2.938669] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.938711] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv\n'}
+[2.938943] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail\n'}
+[2.938977] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__type_support.c\n'}
+[2.939147] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[2.939189] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__type_support.c\n'}
+[2.939233] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[2.939386] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__type_support.c\n'}
+[2.939416] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__rosidl_typesupport_introspection_c.h\n'}
+[2.939456] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__type_support.c\n'}
+[2.939491] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[2.939583] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_introspection_c.so\n'}
+[2.939624] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.939655] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_c.so\n'}
+[2.939849] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_c.so" to ""\n'}
+[2.939911] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo\n'}
+[2.939975] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv\n'}
+[2.940026] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/add_three_ints.hpp\n'}
+[2.940057] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail\n'}
+[2.940162] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__builder.hpp\n'}
+[2.940289] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__traits.hpp\n'}
+[2.940325] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__builder.hpp\n'}
+[2.940569] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__struct.hpp\n'}
+[2.940604] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__traits.hpp\n'}
+[2.940649] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__builder.hpp\n'}
+[2.940679] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__traits.hpp\n'}
+[2.940716] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__struct.hpp\n'}
+[2.940751] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__traits.hpp\n'}
+[2.940795] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__struct.hpp\n'}
+[2.940824] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__struct.hpp\n'}
+[2.940979] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__builder.hpp\n'}
+[2.941187] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/command.hpp\n'}
+[2.941220] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/add_two_ints.hpp\n'}
+[2.941251] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/threevalue.hpp\n'}
+[2.941280] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo\n'}
+[2.941405] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg\n'}
+[2.941464] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.941495] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv\n'}
+[2.941530] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail\n'}
+[2.941574] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.941604] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.941646] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.942447] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/dds_fastrtps\n'}
+[2.942502] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.942551] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.942583] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.942651] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo\n'}
+[2.942714] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv\n'}
+[2.942745] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail\n'}
+[2.942899] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__type_support.cpp\n'}
+[2.942935] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.942981] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__type_support.cpp\n'}
+[2.943068] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.943119] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__type_support.cpp\n'}
+[2.943150] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.943192] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__type_support.cpp\n'}
+[2.943230] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.943260] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_introspection_cpp.so\n'}
+[2.943298] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.943391] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_cpp.so\n'}
+[2.943504] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_cpp.so" to ""\n'}
+[2.943637] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/pythonpath.sh\n'}
+[2.943727] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/pythonpath.dsv\n'}
+[2.943759] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info\n'}
+[2.943794] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.943848] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.943906] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.944027] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.944077] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo\n'}
+[2.944200] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/libpopo__rosidl_generator_py.so\n'}
+[2.944231] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.944277] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/_popo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.944307] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/__init__.py\n'}
+[2.944350] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/_popo_s.ep.rosidl_typesupport_c.c\n'}
+[2.944475] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.944580] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/_popo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.944613] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv\n'}
+[2.944642] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_command.py\n'}
+[2.944671] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_command_s.c\n'}
+[2.944700] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_threevalue_s.c\n'}
+[2.944734] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/__init__.py\n'}
+[2.944764] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_three_ints_s.c\n'}
+[2.944793] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_threevalue.py\n'}
+[2.944821] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_three_ints.py\n'}
+[2.944853] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_two_ints_s.c\n'}
+[2.944882] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_two_ints.py\n'}
+[2.944911] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.969562] (popo) StdoutLine: {'line': b"Listing '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo'...\n"}
+[2.969680] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/__init__.py'...\n"}
+[2.969716] (popo) StdoutLine: {'line': b"Listing '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv'...\n"}
+[2.969746] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/__init__.py'...\n"}
+[2.969775] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_three_ints.py'...\n"}
+[2.969805] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_two_ints.py'...\n"}
+[2.969833] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_command.py'...\n"}
+[2.969861] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_threevalue.py'...\n"}
+[2.972854] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.973130] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[2.973506] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.974094] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[2.974357] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.974402] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[2.974435] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_generator_py.so\n'}
+[2.974468] (popo) StdoutLine: {'line': b'-- Set runtime path of "/home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_generator_py.so" to ""\n'}
+[2.974648] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Command.idl\n'}
+[2.974683] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddThreeInts.idl\n'}
+[2.974715] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Threevalue.idl\n'}
+[2.974867] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddTwoInts.idl\n'}
+[2.975010] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Command.srv\n'}
+[2.975052] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Command_Request.msg\n'}
+[2.975084] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Command_Response.msg\n'}
+[2.975118] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddThreeInts.srv\n'}
+[2.975147] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddThreeInts_Request.msg\n'}
+[2.975190] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddThreeInts_Response.msg\n'}
+[2.975219] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Threevalue.srv\n'}
+[2.975329] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Threevalue_Request.msg\n'}
+[2.975401] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Threevalue_Response.msg\n'}
+[2.975503] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddTwoInts.srv\n'}
+[2.975609] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddTwoInts_Request.msg\n'}
+[2.975721] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddTwoInts_Response.msg\n'}
+[2.975762] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info\n'}
+[2.975801] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.975893] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.975934] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.975963] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.975993] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts\n'}
+[2.976022] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/addthreeintclient.py\n'}
+[2.976053] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/client_member_function.py\n'}
+[2.976082] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/driver_service_server.py\n'}
+[2.976111] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/addthreeintservice.py\n'}
+[2.976139] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/__init__.py\n'}
+[2.976198] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/driver_service_client.py\n'}
+[2.976256] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/service_member_function.py\n'}
+[2.995692] (popo) StdoutLine: {'line': b"Listing '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts'...\n"}
+[2.995809] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/addthreeintclient.py'...\n"}
+[2.995847] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/client_member_function.py'...\n"}
+[2.995887] (popo) StdoutLine: {'line': b"Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/service_member_function.py'...\n"}
+[2.998668] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/driver_service_server.py\n'}
+[2.998914] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/driver_service_client.py\n'}
+[2.998961] (popo) StdoutLine: {'line': b'-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/addthreeintclient.py\n'}
+[2.999001] (popo) StdoutLine: {'line': b'-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/addthreeintservice.py\n'}
+[2.999106] (popo) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:439 (file):\n'}
+[2.999181] (popo) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[2.999212] (popo) StderrLine: {'line': b'  "/home/eggs/ros2/ros2_smartdriveduo30/src/popo/scripts/addthreeintint.py":\n'}
+[2.999238] (popo) StderrLine: {'line': b'  No such file or directory.\n'}
+[2.999268] (popo) StderrLine: {'line': b'\n'}
+[2.999296] (popo) StderrLine: {'line': b'\x1b[0m\n'}
+[3.000320] (popo) CommandEnded: {'returncode': 1}
+[3.016836] (-) TimerEvent: {}
+[3.117056] (-) TimerEvent: {}
+[3.124006] (popo) JobEnded: {'identifier': 'popo', 'rc': 1}
+[3.135297] (-) EventReactorShutdown: {}

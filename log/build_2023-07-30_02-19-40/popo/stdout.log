@@ -1,0 +1,262 @@
+[  1%] Built target popo__cpp
+[ 12%] Built target popo__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_popo
+[ 12%] Built target ament_cmake_python_copy_scripts
+[ 25%] Built target popo__rosidl_typesupport_fastrtps_cpp
+[ 34%] Built target popo__rosidl_typesupport_introspection_cpp
+[ 46%] Built target popo__rosidl_typesupport_fastrtps_c
+[ 57%] Built target popo__rosidl_typesupport_cpp
+[ 68%] Built target popo__rosidl_typesupport_introspection_c
+[ 79%] Built target popo__rosidl_typesupport_c
+[ 79%] Built target popo
+[ 80%] Built target popo__py
+[ 90%] Built target popo__rosidl_generator_py
+[ 93%] Built target popo__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target popo__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target popo__rosidl_typesupport_c__pyext
+running egg_info
+writing popo.egg-info/PKG-INFO
+running egg_info
+writing dependency_links to popo.egg-info/dependency_links.txt
+writing top-level names to popo.egg-info/top_level.txt
+writing scripts.egg-info/PKG-INFO
+writing dependency_links to scripts.egg-info/dependency_links.txt
+writing top-level names to scripts.egg-info/top_level.txt
+reading manifest file 'popo.egg-info/SOURCES.txt'
+reading manifest file 'scripts.egg-info/SOURCES.txt'
+writing manifest file 'popo.egg-info/SOURCES.txt'
+writing manifest file 'scripts.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_scripts_egg
+[100%] Built target ament_cmake_python_build_popo_egg
+-- Install configuration: ""
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/ament_index/resource_index/rosidl_interfaces/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/add_two_ints.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__functions.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__struct.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__functions.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__type_support.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__functions.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__struct.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__functions.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__functions.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__type_support.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__functions.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__functions.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__struct.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__type_support.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__functions.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__type_support.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__struct.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__functions.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__type_support.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__struct.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__functions.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/test_three.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/add_three_ints.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/command.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/threevalue.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/library_path.sh
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/library_path.dsv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_generator_c.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__type_support.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__type_support.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__type_support.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__type_support.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__type_support.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_c.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/add_three_ints.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__builder.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__traits.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__builder.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__struct.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__traits.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__builder.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__traits.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__traits.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__struct.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__traits.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__struct.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__builder.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__struct.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__struct.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__builder.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/command.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/add_two_ints.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/test_three.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/threevalue.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/dds_fastrtps
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__type_support.cpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/threevalue__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/test_three__type_support.cpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__type_support.cpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__type_support.cpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/add_three_ints__type_support.cpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/include/popo/popo/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/pythonpath.sh
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/pythonpath.dsv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/libpopo__rosidl_generator_py.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/_popo_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/__init__.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/_popo_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/_popo_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_test_three_s.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_command.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_command_s.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_threevalue_s.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/__init__.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_three_ints_s.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_test_three.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_threevalue.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_three_ints.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_two_ints_s.c
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv/_add_two_ints.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+Listing '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo'...
+Listing '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/srv'...
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/popo/popo_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/libpopo__rosidl_generator_py.so
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Command.idl
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddThreeInts.idl
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Threevalue.idl
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddTwoInts.idl
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/TestThree.idl
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Command.srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Command_Request.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Command_Response.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddThreeInts.srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddThreeInts_Request.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddThreeInts_Response.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Threevalue.srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Threevalue_Request.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/Threevalue_Response.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddTwoInts.srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddTwoInts_Request.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/AddTwoInts_Response.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/TestThree.srv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/TestThree_Request.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/srv/TestThree_Response.msg
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/addthreeintclient.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/client_member_function.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/driver_service_server.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/TestThreeClient.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/addthreeintservice.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/__init__.py
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/driver_service_client.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/service_member_function.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/TestThreeServer.py
+Listing '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts'...
+Compiling '/home/eggs/ros2/ros2_smartdriveduo30/install/popo/local/lib/python3.10/dist-packages/scripts/driver_service_client.py'...
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/driver_service_server.py
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/driver_service_client.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/addthreeintclient.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/addthreeintservice.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/service_member_function.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/client_member_function.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/TestThreeServer.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/lib/popo/TestThreeClient.py
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/launch
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/ament_index/resource_index/package_run_dependencies/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/ament_index/resource_index/parent_prefix_path/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/path.sh
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/environment/path.dsv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/local_setup.bash
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/local_setup.sh
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/local_setup.zsh
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/local_setup.dsv
+-- Installing: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/package.dsv
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/ament_index/resource_index/packages/popo
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popo__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popo__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popo__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popo__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popo__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popo__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/export_popo__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popoConfig.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/cmake/popoConfig-version.cmake
+-- Up-to-date: /home/eggs/ros2/ros2_smartdriveduo30/install/popo/share/popo/package.xml

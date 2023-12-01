@@ -1,0 +1,4 @@
+Invoking command in '/home/eggs/ros2/ros2_smartdriveduo30/build/popo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eggs/ros2/ros2_smartdriveduo30/build/popo -- -j8 -l8
+Invoked command in '/home/eggs/ros2/ros2_smartdriveduo30/build/popo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eggs/ros2/ros2_smartdriveduo30/build/popo -- -j8 -l8
+Invoking command in '/home/eggs/ros2/ros2_smartdriveduo30/build/popo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eggs/ros2/ros2_smartdriveduo30/build/popo
+Invoked command in '/home/eggs/ros2/ros2_smartdriveduo30/build/popo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eggs/ros2/ros2_smartdriveduo30/build/popo

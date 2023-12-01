@@ -1,0 +1,25 @@
+{
+  "package_name": "popo",
+  "output_dir": "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_typesupport_cpp/popo",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo:srv/Command.idl",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo:srv/AddThreeInts.idl",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo:srv/Threevalue.idl",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo:srv/AddTwoInts.idl",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo:srv/TestThree.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo/srv/Command.idl",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo/srv/AddThreeInts.idl",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo/srv/Threevalue.idl",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo/srv/AddTwoInts.idl",
+    "/home/eggs/ros2/ros2_smartdriveduo30/build/popo/rosidl_adapter/popo/srv/TestThree.idl"
+  ]
+}

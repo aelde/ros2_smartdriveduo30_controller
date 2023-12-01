@@ -1,0 +1,10 @@
+{
+  "package_name": "popo",
+  "non_idl_tuples": [
+    "/home/eggs/ros2/ros2_smartdriveduo30/src/popo:srv/Command.srv",
+    "/home/eggs/ros2/ros2_smartdriveduo30/src/popo:srv/AddThreeInts.srv",
+    "/home/eggs/ros2/ros2_smartdriveduo30/src/popo:srv/Threevalue.srv",
+    "/home/eggs/ros2/ros2_smartdriveduo30/src/popo:srv/AddTwoInts.srv",
+    "/home/eggs/ros2/ros2_smartdriveduo30/src/popo:srv/TestThree.srv"
+  ]
+}

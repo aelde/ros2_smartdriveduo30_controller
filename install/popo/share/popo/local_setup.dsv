@@ -1,0 +1,4 @@
+source;share/popo/environment/ament_prefix_path.sh
+source;share/popo/environment/library_path.sh
+source;share/popo/environment/path.sh
+source;share/popo/environment/pythonpath.sh

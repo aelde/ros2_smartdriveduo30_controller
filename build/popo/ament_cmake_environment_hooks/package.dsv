@@ -1,0 +1,4 @@
+source;share/popo/local_setup.bash
+source;share/popo/local_setup.dsv
+source;share/popo/local_setup.sh
+source;share/popo/local_setup.zsh
